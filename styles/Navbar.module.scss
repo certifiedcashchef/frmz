@@ -1,0 +1,29 @@
+@import "vars";
+
+.navbar {
+  display: flex;
+  align-items: center;
+  padding: 1.5rem;
+}
+
+.logo {
+  color: #13faab;
+  text-shadow: 0.11rem 0.1rem 0 #202020;
+  font-family: "Secular One", sans-serif;
+}
+
+.navLinks {
+  color: $primaryColor;
+  gap: 1.5rem;
+  margin-left: 3rem;
+  display: flex;
+  list-style: none;
+  justify-content: center;
+  font-weight: 500;
+}
+
+@media (max-width: 800px) {
+  .navbar {
+    justify-content: center;
+  }
+}

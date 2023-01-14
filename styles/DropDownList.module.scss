@@ -1,0 +1,36 @@
+@import "vars";
+
+.listContainer {
+  margin-bottom: 5rem;
+  width: 18rem;
+}
+.selectionText {
+  display: block;
+  color: $primaryColor;
+  margin-top: 2.7rem;
+}
+
+.textBox {
+  padding: 0.8rem 1rem 0.8rem 0.8rem;
+  cursor: pointer;
+  height: 2.8rem;
+  border: none;
+  outline: none;
+  color: $headColor;
+  font-weight: 600;
+  background: rgb(220, 220, 220);
+  box-shadow: 0 0.3rem 1.25rem rgba(0, 0, 0, 0.05);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.options h2 {
+  padding: 0.8rem 7rem 0.8rem 0.8rem;
+  color: $headColor;
+  cursor: pointer;
+  transition: 0.2s ease-in-out;
+  &:hover {
+    background-color: rgba(0, 0, 0, 0.1);
+  }
+}

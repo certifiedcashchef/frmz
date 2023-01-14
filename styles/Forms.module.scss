@@ -1,0 +1,36 @@
+@import "/styles/vars";
+
+.formHolder {
+  display: flex;
+  flex-direction: column;
+  gap: 0.8rem;
+}
+
+.cheackBox {
+  display: flex;
+  align-items: center;
+}
+
+.checkBoxForget {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  & a h2 {
+    transition: 0.3s ease-in-out;
+  }
+  & a h2:hover {
+    color: $headColor;
+  }
+}
+
+.checkBoxAgree {
+  display: flex;
+  align-items: left;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.cheackBoxError {
+  font-size: 0.7rem;
+  color: red;
+}
